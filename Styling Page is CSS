@@ -1,0 +1,223 @@
+  CSS PROPERTIES:
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 8px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoim {
+  border-radius: 32px;
+}
+.logo {
+  color: #fff;
+  display: inline-block;
+}
+
+header h1 {
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+}
+nav ul:hover {
+  color: #003c6b;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#hero {
+  background-color: #005a9c;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero-content h2 {
+  font-size: 36px;
+}
+
+.cta-button {
+  background-color: #000;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #003c6b;
+}
+
+.section-title h2 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+section {
+  padding: 40px 20px;
+}
+.vission {
+  color: #000;
+  background-color: #eff3f9;
+  border-radius: 10px;
+
+  line-height: 0.9cm;
+}
+
+#about p,
+#Team .member p,
+#projects .project p {
+  text-align: center;
+}
+
+#Team .team-members {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.member img {
+  border-radius: 50%;
+}
+
+.team-members .member {
+  text-align: center;
+}
+
+/*.projects-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}*/
+
+.project img {
+  width: 100%;
+  max-width: 300px;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project-card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.project-card p {
+  padding: 0 10px 10px;
+  color: #3e3d3d;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.project-card a:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+#news ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+#news ul li {
+  margin: 10px 0;
+}
+.news-1 {
+  height: 120px;
+  width: 120px;
+  padding: 20px 10px;
+}
+.news-2 {
+  height: 120px;
+  width: 120px;
+  padding: 20px 10px;
+}
+.af {
+  padding-bottom: 40px;
+  margin-bottom: 90px;
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #005a9c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+form button:hover {
+  background-color: #003c6b;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+footer .social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  line-height: 0.5cm;
+}
