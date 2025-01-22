@@ -1,0 +1,178 @@
+  HTML CODE:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blue Black Team</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="logo">
+        <h1>
+        <img src="C:\Users\my pc\OneDrive\Desktop\Intern Project\wmremove-transformed.jpeg" height="50" width="50" class="logoim"/>
+        Blue Black Team</h1>
+
+        
+      </div>
+      <nav>
+        <ul class="head-page">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#Team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" >
+      <div class="hero-content">
+        <h2>Innovating Together for a Better Future</h2>
+        <p>Where Passion Meets Precision</p>
+        <a href="#about" class="cta-button">Learn More</a>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+      <div class="section-title">
+        <h2>About Us</h2>
+      </div>
+      <div class="vission">
+      <p style="text-align: center;"><i>
+        The Blue Black Team is committed to creating innovative solutions that
+        drive progress and shape the future.</i>
+    </p>
+   
+      <p>Vision:
+        To become a leading team in technological innovation, pushing the boundaries of creativity and excellence to develop solutions that positively impact society and inspire the next generation of innovators.</p>
+      </p>
+      <p>Mission:
+        
+        To innovate, inspire, and deliver cutting-edge projects that address real-world challenges.
+        To foster collaboration and teamwork, enabling members to grow and excel in their areas of expertise.
+        To maintain a commitment to quality, sustainability, and inclusivity in every project undertaken
+      </p>
+      </div>
+
+    </section>
+
+    
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="section-title">
+        <h2>Our Projects</h2>
+      </div>
+      <div class="project-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+            <a href="https://github.com/kg0420/Dynamic-Blog-Website-with-User-Authentication" target="_blank">
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1769&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Project 1">
+                <h3>Dynamic Blog Website with User Authentication</h3>
+                <p>Dynamic Blog Website with User Authentication:                                                                                                                                                           
+                    Demonstrates expertise in user authentication and dynamic content management</p>
+                <p>A full-stack web development project featuring:</p>                     
+                <p> User Authentication: Secure sign up, login, and logout.</p>                   
+                <p>Blog CRUD: Create, read, update, and delete blog posts.</p>                         
+                <p>Responsive Design: Adaptable to various devices.</p>                       
+                <p> Comment System: Users can comment on posts.</p>
+                <p>Search Functionality: Keyword search for posts.</p>                     
+                <p>Technologies:     
+                    Frontend: HTML, CSS, JavaScript.                      
+                    Backend: Python (Django/Flask).                   
+                    Database: SQLite/MySQL/PostgreSQL.</p>
+            </a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <a href="https://github.com/kg0420/College-Management-System" target="_blank">
+                <img src="https://plus.unsplash.com/premium_photo-1661414415246-3e502e2fb241?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWFuYWdlbWVudHxlbnwwfHwwfHx8MA%3D%3D" alt="Project 2">
+                <h3>College Management System</h3>
+                <p>College Management System: Efficiently manages student records. Key features:</p>
+                <p>Name: Full student name</p>                     
+                <p>Stream: Academic program (e.g., Computer Science)</p>                   
+                <p>Year: Academic year or batch  </p>                         
+                <p>Age: Student's age  </p>                       
+                <p>  Fees Paid: Tuition fees record
+                    Facilitates easy data access and updates, 
+                    enabling administrators to track fee payments and manage student information.
+                     Ensures streamlined registration, reporting, and data manageme</p>
+            </a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+            <a href="https://github.com/kg0420/Advanced-library" target="_blank">
+                <img src="https://plus.unsplash.com/premium_photo-1661905921900-a8b49e65feeb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGxpYnJhcnl8ZW58MHx8MHx8fDA%3D" alt="Project 3">
+                <h3>Library Management System</h3>
+                <p>Library Management System: Python-based console app for library operations.</p>
+                <p> Features:</p>    
+                <p>Display Books: Shows available books.</p>                         
+                <p>Lend Books: Records and tracks book lending.</p>                      
+                <p>Add Books: Adds new books to the collection.</p>                         
+                <p>Return Books: Updates lending records.</p>                    
+                <p>Technologies:</p>     
+                <p>Python: Manages user input and data.</p>    
+                <p>Data Structures: Uses dictionaries for books and lending details.</p>                         
+                <p>Demonstrates software development using object-oriented programming and efficient data management</p>
+            </a>
+        </div>
+
+      
+    </section>
+    
+    <!-- Team Section -->
+    <section id="Team">
+      <div class="section-title">
+        <h2>Meet the Team</h2>
+      </div>
+      <div class="team-members">
+        <div class="member">
+          <img src="C:\Users\my pc\OneDrive\Desktop\Intern Project\OIP (1).jpg" alt="Team Member" height="250" width="186" />
+          <h3>Jane Doe</h3>
+          <p>Lead Developer</p>
+        </div>
+        <div class="member">
+          <img src="C:\Users\my pc\OneDrive\Desktop\Intern Project\KT-9453.jpg" alt="Team Member" height="250" width="186" />
+          <h3>John Smith</h3>
+          <p>Project Manager</p>
+        </div>
+        <!-- Add more team members as needed -->
+      </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="section-title">
+        <h2>Contact Us</h2>
+      </div>
+      <form action="mailto:info@example.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Blue Black Team | All Rights Reserved</p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/ln21_02/?next=%2F&hl=en">Instagram</a>
+        <a href="#">twitter</a>
+        <a href="https://www.linkedin.com/in/lakshmi-narayanan-088989332/">LinkedIn</a>
+    </div>
+
+    </footer>
+  </body>
+</html>
+
+
