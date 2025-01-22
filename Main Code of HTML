@@ -12,9 +12,9 @@
     <!-- Header Section -->
     <header>
       <div class="logo">
-        <h1>
+        
         <img src="C:\Users\my pc\OneDrive\Desktop\Intern Project\wmremove-transformed.jpeg" height="50" width="50" class="logoim"/>
-        Blue Black Team</h1>
+        <h1 class="logoh">Blue Black Team</h1>
 
         
       </div>
