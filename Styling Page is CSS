@@ -18,10 +18,10 @@ header {
 }
 .logoim {
   border-radius: 32px;
+ float: left;
 }
-.logo {
-  color: #fff;
-  display: inline-block;
+.logoh {
+  padding-left: 80px;
 }
 
 header h1 {
